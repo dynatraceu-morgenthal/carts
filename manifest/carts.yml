@@ -23,7 +23,7 @@ spec:
         - name: DT_CUSTOM_PROP
           value: "SERVICE_TYPE=BACKEND"
         resources:
-        limits:
+          limits:
             cpu: 500m
             memory: 1024Mi
           requests:
